@@ -78,7 +78,8 @@ int main(int argc, const char * argv[]) {
     reverseArr(mainArr,reversedArr);
     printArr(reversedArr);
     deAllocate(reversedArr);
-    
+    cin.get();
+    cin.ignore();
 
     return 0;
 }
